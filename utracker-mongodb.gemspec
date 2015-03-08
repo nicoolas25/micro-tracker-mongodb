@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Nicolas ZERMATI"]
   spec.email         = ["nicoolas25@gmail.com"]
   spec.summary       = %q{MongoDB backend for utracker.}
-  spec.homepage      = "http://github.com/nicoolas25/micro-tracker"
+  spec.homepage      = "http://github.com/nicoolas25/micro-tracker-mongodb"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
