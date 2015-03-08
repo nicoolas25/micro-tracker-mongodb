@@ -20,11 +20,16 @@ require 'utracker/mongodb'
 Utracker.configure do |config|
   # ...
 
-  # Set the log to the MongoDB instance at the MONGO_URL env variable.
-  config[:logger] = Utracker::MongoDB::Logger.new(ENV['MONGO_URL'])
+  # Set the log to the MongoDB instance at the MONGODB_URI env variable.
+  # If no MONGODB_URI can be found, it will look MongoDB on localhost:27017.
+  config[:logger] = Utracker::MongoDB::Logger.new(database_name: 'utracker')
 
   # ...
 end
 ```
+
+There is some options available when you're using the logger:
+
+* `database_name` allow you to chosse the collection you want to use
 
 [utracker]: https://github.com/nicoolas25/micro-tracker
