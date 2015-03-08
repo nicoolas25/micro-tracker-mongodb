@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/nicoolas25/micro-tracker-mongodb.svg)](https://travis-ci.org/nicoolas25/micro-tracker-mongodb)
 [![Code Climate](https://codeclimate.com/github/nicoolas25/micro-tracker-mongodb/badges/gpa.svg)](https://codeclimate.com/github/nicoolas25/micro-tracker-mongodb)
 [![Test Coverage](https://codeclimate.com/github/nicoolas25/micro-tracker-mongodb/badges/coverage.svg)](https://codeclimate.com/github/nicoolas25/micro-tracker-mongodb)
+[![Gem Version](https://badge.fury.io/rb/utracker-mongodb.svg)](http://badge.fury.io/rb/utracker-mongodb)
 
 This is a MongoDB backend for the [utracker][utracker] gem.
 
