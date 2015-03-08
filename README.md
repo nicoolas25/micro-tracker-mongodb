@@ -1,5 +1,7 @@
 # Micro-tracker MongoDB backend
 
+[![Build Status](https://travis-ci.org/nicoolas25/micro-tracker-mongodb.svg)](https://travis-ci.org/nicoolas25/micro-tracker-mongodb)
+
 This is a MongoDB backend for the [utracker][utracker] gem.
 
 ## Installation
