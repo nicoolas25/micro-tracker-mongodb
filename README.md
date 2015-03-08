@@ -30,6 +30,6 @@ end
 
 There is some options available when you're using the logger:
 
-* `database_name` allow you to chosse the collection you want to use
+* `database_name` allow you to choose the database you want to use, default to `utracker`
 
 [utracker]: https://github.com/nicoolas25/micro-tracker
