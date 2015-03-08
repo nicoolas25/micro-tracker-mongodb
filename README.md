@@ -31,5 +31,6 @@ end
 There is some options available when you're using the logger:
 
 * `database_name` allow you to choose the database you want to use, default to `utracker`
+* `collection_name` allow you to choose the collection you want to use, default to `entries`
 
 [utracker]: https://github.com/nicoolas25/micro-tracker

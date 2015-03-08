@@ -1,5 +1,7 @@
 RSpec.describe Utracker::MongoDB::Logger do
-  let(:instance) { described_class.new(database_name: database_name) }
+  let(:instance) { described_class.new(database_name: database_name,
+                                       collection_name: collection_name) }
+
   let(:database_name) { "utracker_test" }
   let(:collection_name) { "entries" }
   let(:collection) { instance.database[collection_name] }

@@ -6,9 +6,10 @@ module Utracker
       attr_reader :client
       attr_reader :database
 
-      def initialize(database_name: "utracker")
+      def initialize(database_name: "utracker", collection_name: "entries")
         @client = Mongo::MongoClient.new
         @database = @client[database_name]
+        @collection_name = collection_name
       end
 
       protected
@@ -25,7 +26,7 @@ module Utracker
       end
 
       def event_collection
-        database['entries']
+        @event_collection ||= database[@collection_name]
       end
 
     end
