@@ -1,0 +1,13 @@
+digraph message_flow {
+  node [style=filled fillcolor=white]
+  rankdir=LR
+  carl
+  carl -> alice
+  carl -> bob
+  bob
+  bob -> carl
+  bob -> alice
+  alice
+  alice -> bob
+  alice -> carl
+}
